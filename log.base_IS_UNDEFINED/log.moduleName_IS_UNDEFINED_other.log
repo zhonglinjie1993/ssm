@@ -1,0 +1,10 @@
+2018-07-03 20:59:06.906 DEBUG [main] org.apache.ibatis.logging.LogFactory.setImplementation():115 -Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2018-07-03 20:59:07.554 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():358 -Property 'configLocation' not specified, using default MyBatis Configuration
+2018-07-03 20:59:07.746 DEBUG [main] org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory():468 -Parsed mapper file: 'file [F:\IDWork\ssm\target\classes\mapper\IUserDao.xml]'
+2018-07-03 20:59:07.805 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():106 -Creating a new SqlSession
+2018-07-03 20:59:07.809 DEBUG [main] org.mybatis.spring.SqlSessionUtils.getSqlSession():142 -SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b6ec132] was not registered for synchronization because synchronization is not active
+2018-07-03 20:59:07.837 DEBUG [main] org.mybatis.spring.transaction.SpringManagedTransaction.openConnection():85 -JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@524f3b3a] will not be managed by Spring
+2018-07-03 20:59:07.838 DEBUG [main] org.ssm.dufy.dao.IUserDao.selectByPrimaryKey.debug():132 -ooo Using Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@524f3b3a]
+2018-07-03 20:59:07.847 DEBUG [main] org.ssm.dufy.dao.IUserDao.selectByPrimaryKey.debug():132 -==>  Preparing: select id, user_name, password, age from user_t where id = ? 
+2018-07-03 20:59:07.944 DEBUG [main] org.ssm.dufy.dao.IUserDao.selectByPrimaryKey.debug():132 -==> Parameters: 1(Integer)
+2018-07-03 20:59:07.967 DEBUG [main] org.mybatis.spring.SqlSessionUtils.closeSqlSession():170 -Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b6ec132]
